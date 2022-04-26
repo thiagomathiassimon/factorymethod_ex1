@@ -12,8 +12,8 @@ public class PizzaStore {
         Pizza pizza = null;
         if (type.equals("cheese")) {
             pizza = new CheesePizza();
-            //}else If (type.eguals(“greek”)){
-            //	Pizza pizza = new GreekPizza();  
+            //} else if (type.eguals("greek")){
+            //	 pizza = new GreekPizza();  
         } else if (type.equals("pepperoni")) {
             pizza = new PepperoniPizza();
         } else if (type.equals("Veggie")) {
