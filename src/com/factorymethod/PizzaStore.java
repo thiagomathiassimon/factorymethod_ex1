@@ -4,7 +4,7 @@ public class PizzaStore {
 
     /**
      * Cria uma pizza a partir do tipo especificado.
-     * @param type Tipo da piza.
+     * @param type Tipo da pizza.
      * @return Pizza selecionada.
      */
     public Pizza orderPizza(String type) {
