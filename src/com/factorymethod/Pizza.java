@@ -1,20 +1,12 @@
 package com.factorymethod;
 
-public class Pizza {
+public interface Pizza {
 
-    public void prepare() {
-        System.out.println("Preparando");
-    }
+    void prepare();
 
-    public void bake() {
-        System.out.println("Assando");
-    }
+    void bake();
 
-    public void cut() {
-        System.out.println("Cortando");
-    }
+    void cut();
 
-    public void box() {
-        System.out.println("Na caixa");
-    }
+    void box();
 }
